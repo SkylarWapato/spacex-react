@@ -197,7 +197,7 @@ export default function LaunchTable() {
                   <TableCell align="left">{row.missionName}</TableCell>
                   <TableCell align="left">{(new Date(row.launchDate * 1000)).toDateString()}</TableCell>
                   <TableCell align="left">{row.rocketName}</TableCell>
-                  <TableCell align="left"><a target="_blank" href={row.videoLink}>{row.videoLink}</a></TableCell>
+                  <TableCell align="left"><a target="_blank" rel="noreferrer" href={row.videoLink}>{row.videoLink}</a></TableCell>
                 </TableRow>
               ))
             }</>
