@@ -7,7 +7,9 @@ First a few ground rules.
 ## Run it yourself
 
 > 📙 **React** is a free and open-source front-end JavaScript library for building user interfaces or UI components.
+
 > 📙 **GraphQL** is a specification that describes a consistent query and manipulation language for varying data sources.
+
 > 📙 GraphQL **introspection** enables you to query a GraphQL server for information about the underlying schema
 
 
