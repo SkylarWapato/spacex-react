@@ -1,4 +1,4 @@
-# Spacex GraphQL API
+# Spacex React Application
 First a few ground rules.
 > 📙 **Definition**: This will denote a definition of often used industry lingo
 

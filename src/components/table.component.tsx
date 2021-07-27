@@ -81,7 +81,7 @@ export default function LaunchTable() {
     }
   }
 
-  if (error) return <p style={{ fontSize: 45 }}>Error:  Make sure you've started your graphql server at { GRAPHQL_URL }.</p>
+  if (error) return <p style={{ fontSize: 45 }}>Error:  Make sure you've started your graphql server at { GRAPHQL_URL }. The server can be found <a href="https://github.com/SkylarWapato/spacex-graphql">here</a></p>
 
   const createSortHandler = (property: 'mission' | 'date' | 'rocket', e: any) => {
     let scopedOrder: 'asc' | 'desc'
