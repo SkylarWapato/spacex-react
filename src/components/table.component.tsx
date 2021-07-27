@@ -16,8 +16,8 @@ import {
 import DateFnsUtils from '@date-io/date-fns'
 import { times } from 'lodash'
 
-import { SortBy } from '../__generated__/global-types'
-import { GetLaunches_launches } from '../__generated__/GetLaunches'
+import { SortBy } from '../__generated__'
+import { GetLaunches_launches } from '../__generated__'
 
 import { GRAPHQL_URL, SHADOW_ROW_COUNT } from '../libs/constants'
 import Search from './search'
